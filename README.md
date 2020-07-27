@@ -12,3 +12,5 @@ python>=3.6
 Difference
 mpe-pgddpg-v-0.1.2.zip: Evaluate the original action.
 mpe-pgddpg-v-0.1.3.zip: Evaluate the noisy action.
+
+# python run.py
