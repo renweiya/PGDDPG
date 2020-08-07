@@ -19,5 +19,7 @@ mpe-pgddpg-v-0.1.2.zip: Evaluate the clear action.
 mpe-pgddpg-v-0.1.3.zip: Evaluate the noisy action.
 (first choice) mpe-pgddpg-v-0.1.4.zip: Evaluate and excute the noisy action.
 
-# python run.py
-# python show_fix_prey.py
+# type 
+python run.py
+or
+python show_fix_prey.py
