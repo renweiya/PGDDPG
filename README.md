@@ -15,11 +15,8 @@
 
 
 ### version difference
-###### mpe-pgddpg-v-0.1.2.zip: Evaluate the clear action.
-###### mpe-pgddpg-v-0.1.3.zip: Evaluate the noisy action.
-###### (first choice) mpe-pgddpg-v-0.1.4.zip: Evaluate and excute the noisy action.
 
 ### python codes 
 ###### python run.py (train prey and predator at the same time).
 ###### python run_fix_prey (use a well trained prey and train predator).
-###### python show_fix_prey.py
+
