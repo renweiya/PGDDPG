@@ -17,6 +17,5 @@
 ### version difference
 
 ### python codes 
-###### python run.py (train prey and predator at the same time).
-###### python run_fix_prey (use a well trained prey and train predator).
+###### python run_fix_prey (use a well trained prey and train the predator).
 
