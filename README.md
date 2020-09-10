@@ -1,7 +1,7 @@
 ### PGDDPG
 
 
-###### The code of the article "Potential Field Guided Actor-Critic Reinforcement Learning"  
+###### The code of the article "Potential Field Guided Actor-Critic Reinforcement Learning" (PGDDPG)  
 ###### Copyright (c) 2020.06. renweiya. email: weiyren.phd@gmail.com. All rights reserved. 
 
 ### requires: 
@@ -14,8 +14,11 @@
 ###### prey: +0.1 in each step. (live as long as possible).  
 
 
-### version difference
+### (MA)DDPG fails without reward shaping. You need a well designed reward shaping if use DDPG or MADDPG.
 
-### python codes 
-###### python run_fix_prey (use a well trained prey and train the predator).
 
+### test PGDDPG files:
+
+###### run_fix_prey.py: train predators with a well trained prey named prey-23.
+###### run_fix_preys.py: train predators with a well trained prey named prey-s.
+###### run.py: train predators and prey simutaniously.
