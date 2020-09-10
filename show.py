@@ -23,7 +23,7 @@ flags = tf.app.flags
 # Game parameter
 # flags.DEFINE_string('env_name', 'predator_prey', 'env used')
 flags.DEFINE_string('env_name', 'round_up', 'env used')
-flags.DEFINE_bool('render', False, 'whether to render the scenario')
+flags.DEFINE_bool('render', True, 'whether to render the scenario')
 flags.DEFINE_integer('seed', 1, 'random seed')
 
 flags.DEFINE_integer('max_step_before_punishment', 8, 'max_step_before_punishment')
@@ -307,6 +307,7 @@ def train():
 
             #add by laker
             if ended:
+                time.sleep(3)
                 env._reset_render()#reset render-laker
                 sucess_rate.append(done)
                 if start_decay and explore_pobility>0.05:
