@@ -24,4 +24,4 @@
 ###### run.py: train predators and prey simutaniously.
 
 
-Adjusting learning rate, eg, change the actor learning rate from 0.01 to 0.0001 will lead to more stable result. 
+Adjusting learning rate, eg, change the actor learning rate from 0.01 to 0.0001 and change the tau from 0.01 to 0.001 will lead to more stable result. 
