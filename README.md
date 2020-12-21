@@ -22,3 +22,6 @@
 ###### run_fix_prey.py: train predators with a well trained prey named prey-23.
 ###### run_fix_preys.py: train predators with a well trained prey named prey-s.
 ###### run.py: train predators and prey simutaniously.
+
+
+Adjusting learning rate, eg, change the actor learning rate from 0.01 to 0.0001 will lead to more stable result. 
