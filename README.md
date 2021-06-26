@@ -1,7 +1,7 @@
 ### PGDDPG
 
 
-###### The code of the article "Potential Field Guided Actor-Critic Reinforcement Learning" (PGDDPG)  
+###### The code of the article "Potential Field Guided Actor-Critic Reinforcement Learning" [PGDDPG](https://arxiv.org/abs/2006.06923v1)
 ###### Copyright (c) 2020.06. renweiya. email: weiyren.phd@gmail.com. All rights reserved. 
 
 ### requires: 
